@@ -8,10 +8,10 @@ public class Main {
 
     private static int fibonacci(int n) {
         if (n < 2) return n;
-        return fibonacci(n-1) + fibonacci(n-2);
+        return fibonacci(n-1) * n;
     }
 
-    public static void main (String args[]) {
+    public static void main (String[] args) {
 
         Scanner input = new Scanner(System.in);
 
