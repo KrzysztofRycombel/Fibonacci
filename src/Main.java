@@ -19,7 +19,7 @@ public class Main {
 
         try {
             int nElementOfSequence = input.nextInt();
-            System.out.println("Wynik: "+fibonacci(nElementOfSequence));
+            System.out.println(nElementOfSequence+" element ciągu Fibonacciego to: "+fibonacci(nElementOfSequence));
 
         } catch (InputMismatchException e){
             System.out.println("Podaj liczbę w prawidłowym formacie");
