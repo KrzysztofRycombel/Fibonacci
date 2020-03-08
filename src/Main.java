@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static int fibonacci(int n) {
+    static int fibonacci(int n) {
         if (n < 2) return n;
         return fibonacci(n-1) + fibonacci(n-2);
     }
@@ -18,8 +18,8 @@ public class Main {
         System.out.print("Podaj n-ty wyraz ciagu Fibonacciego: ");
 
         try {
-            int nStringNumber = input.nextInt();
-            System.out.println("Wynik: "+fibonacci(nStringNumber));
+            int nElementOfSequence = input.nextInt();
+            System.out.println("Wynik: "+fibonacci(nElementOfSequence));
 
         } catch (InputMismatchException e){
             System.out.println("Podaj liczbę w prawidłowym formacie");
